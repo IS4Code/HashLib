@@ -746,16 +746,6 @@ namespace HashLib
                     return new HashLib.Crypto.BuildIn.MD5CryptoServiceProvider();
                 }
 
-                public static IHash CreateRIPEMD160Managed()
-                {
-                    return new HashLib.Crypto.BuildIn.RIPEMD160Managed();
-                }
-
-                public static IHash CreateSHA1Cng()
-                {
-                    return new HashLib.Crypto.BuildIn.SHA1Cng();
-                }
-
                 public static IHash CreateSHA1CryptoServiceProvider()
                 {
                     return new HashLib.Crypto.BuildIn.SHA1CryptoServiceProvider();
@@ -764,11 +754,6 @@ namespace HashLib
                 public static IHash CreateSHA1Managed()
                 {
                     return new HashLib.Crypto.BuildIn.SHA1Managed();
-                }
-
-                public static IHash CreateSHA256Cng()
-                {
-                    return new HashLib.Crypto.BuildIn.SHA256Cng();
                 }
 
                 public static IHash CreateSHA256CryptoServiceProvider()
@@ -781,11 +766,6 @@ namespace HashLib
                     return new HashLib.Crypto.BuildIn.SHA256Managed();
                 }
 
-                public static IHash CreateSHA384Cng()
-                {
-                    return new HashLib.Crypto.BuildIn.SHA384Cng();
-                }
-
                 public static IHash CreateSHA384CryptoServiceProvider()
                 {
                     return new HashLib.Crypto.BuildIn.SHA384CryptoServiceProvider();
@@ -794,11 +774,6 @@ namespace HashLib
                 public static IHash CreateSHA384Managed()
                 {
                     return new HashLib.Crypto.BuildIn.SHA384Managed();
-                }
-
-                public static IHash CreateSHA512Cng()
-                {
-                    return new HashLib.Crypto.BuildIn.SHA512Cng();
                 }
 
                 public static IHash CreateSHA512CryptoServiceProvider()

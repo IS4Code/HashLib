@@ -119,9 +119,6 @@ namespace Examples
             hash = HashFactory.Hash32.CreateMurmur2();
             Debug.Assert(hash is INonBlockHash);
 
-            // Use build-in cryptography hash algorithms.
-            hash = HashFactory.Crypto.BuildIn.CreateSHA256Cng();
-
             // Delete temp file.
             new FileInfo(file_name).Delete();
         }

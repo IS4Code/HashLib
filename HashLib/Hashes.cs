@@ -40,13 +40,9 @@ namespace HashLib
 
             var x2 = new Type[] 
             { 
-                typeof(HashLib.Crypto.BuildIn.SHA1Cng), 
                 typeof(HashLib.Crypto.BuildIn.SHA1Managed), 
-                typeof(HashLib.Crypto.BuildIn.SHA256Cng), 
                 typeof(HashLib.Crypto.BuildIn.SHA256Managed), 
-                typeof(HashLib.Crypto.BuildIn.SHA384Cng), 
                 typeof(HashLib.Crypto.BuildIn.SHA384Managed), 
-                typeof(HashLib.Crypto.BuildIn.SHA512Cng), 
                 typeof(HashLib.Crypto.BuildIn.SHA512Managed), 
                 typeof(HashLib.Crypto.MD5),
                 typeof(HashLib.Crypto.RIPEMD160),

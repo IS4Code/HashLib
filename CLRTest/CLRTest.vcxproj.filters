@@ -39,9 +39,9 @@
     <ClInclude Include="Murmur3Test.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="JHTest.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="JHTest.h" />
     <ClCompile Include="Hamsi.cpp" />
     <ClCompile Include="CLRTest.cpp" />
     <ClCompile Include="stdafx.cpp" />
